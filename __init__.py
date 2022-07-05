@@ -7,7 +7,7 @@ import sys
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
-    conn = pymssql.connect(server='localhost', user='root', password='', database='apipython') 
+    conn = pymssql.connect(Server=tcp:serverapipython.database.windows.net,1433;Initial Catalog=apipython;Persist Security Info=False;User ID=angular;Password=Crud246476;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;) 
     cursor = conn.cursor()
     #Funcion para crear
     def post_query(query,cursor):
